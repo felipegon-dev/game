@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('all', 'App\Http\Controllers\Api\ApiController@apitest')->name('api');
+Route::get('game/start', 'App\Http\Controllers\Api\ApiController@startGame')->name('api');

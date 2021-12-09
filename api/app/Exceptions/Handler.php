@@ -34,6 +34,7 @@ class Handler extends ExceptionHandler
      */
     public function register()
     {
+        //TODO: set InvalidParameterException:class to err 400
         $this->reportable(function (Throwable $e) {
             //
         });
